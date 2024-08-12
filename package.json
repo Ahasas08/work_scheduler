@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Ahasas08.github.io/work_scheduler",
   "name": "work_scheduler",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
